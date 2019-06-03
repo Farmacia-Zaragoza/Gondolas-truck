@@ -1,0 +1,117 @@
+.info_details {
+    background: rgba(204, 204, 204, 0.8);
+    display: inline-block;
+    padding: 0px;
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+    z-index: 999999;
+    display: none;
+}
+.info_details .info_details_ul {
+    padding: 0;
+    margin: 0;
+    width: 260px;
+    height: 245px;
+    padding: 20px;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.info_details .info_details_ul::-webkit-scrollbar {
+    display: none;
+}
+.info_details .info_details_ul::-moz-scrollbar {
+    display: none;
+}
+.info_details .info_details_ul {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-family: "Courier New", Courier, monospace;
+}
+ .info_details .up_info_direction, .info_details .down_info_direction {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+.info_details_li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info_details_li {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+.totalInfoContent {
+    width: 80%;
+    overflow-y: hidden;
+    margin: 0 auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+}
+.info_details_li .totalInfoContent::-webkit-scrollbar {
+    display: none;
+}
+.info_details_li .totalInfoContent::-moz-scrollbar {
+    display: none;
+}
+.left_arrow_li_info {
+    position: absolute;
+    top: 0px;
+    left: -13px;
+    z-index: 99;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 0;
+    display: none;
+}
+.right_arrow_li_info {
+    position: absolute;
+    top: 0px;
+    right: -13px;
+    z-index: 99;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 0;
+    display: none;
+}
+/* .left_arrow_li_info.active {
+    display: none;
+}
+.right_arrow_li_info.active {
+    display: none;
+} */
+
+.info_left_span {
+    width: 50%;
+    display: block;
+    float: left;
+}
+span.info_right_span {
+    margin-left: 5px;
+}
+
+.totalInfoContent {
+    display: none;
+}
+.infoInerContent {
+    width: 300px;
+}
